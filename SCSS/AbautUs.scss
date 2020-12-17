@@ -1,0 +1,16 @@
+@mixin fonts ($font-family, $font-size, $color) {
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $color;
+}
+.banner-h4_style{
+  @include fonts('Oswald', 2rem, #ffffff );
+  text-align: center;
+  text-decoration: underline #ffffff;
+  padding: 3rem 0% 0.2rem 0%;
+}
+.banner-p_style{
+  @include fonts('Oswald', 1.6rem, #ffffff);
+  padding: 1rem 0% 2rem 0%;
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+@mixin fonts ($font-family, $font-size, $color) {
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $color;
+}
+.form-label{
+  @include fonts('Oswald', 1.2rem, #ffffff);  
+  padding: .6rem 1rem .4rem 0rem;
+}
+.form-control{
+  @include fonts('Oswald', 1rem, #ffffff);
+}
+#inputState{
+  background-color: #6cbdd3;
+}
+#inputState:hover{
+  background-color: #106776;
+}
+#form_container{
+  width: 90%;
+  margin: 3rem 5% 3rem 5%;
+}
+.btn-send_colour{
+  background-color: #106776;
+  color: #ffffff;
+  margin-top: .8rem;
+  border: solid 2px #106776;
+}
+.btn-send_colour:hover{
+  background-color: #297b8a;
+}
+.form_border-bottom{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid .1rem #106776;
+  background-color: #6cbdd3;
+  color: #ffffff;
+  border-radius: 0rem;
+}
+.form_border-bottom:hover{
+  background-color: #106776;
+}
+.form_border-bottom:focus{
+  background-color: #106776;
+  color: #ffffff;
+}
