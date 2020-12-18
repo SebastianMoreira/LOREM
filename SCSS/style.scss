@@ -108,6 +108,8 @@ body{
 @import "AbautUs";
 /*Formulario*/
 @import "form";
+/*Contacto*/
+@import "contact";
 /*Otros*/
 .banner-p_style-size{
   @include fonts('Oswald', .8rem, #ffffff)

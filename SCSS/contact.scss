@@ -1,0 +1,28 @@
+@mixin sizes ($heigth, $width) {
+  height: $heigth;
+  width: $width;
+}
+@mixin fonts ($font-family, $font-size, $color) {
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $color;
+}
+#body-bg-contact_colour{
+  background-color: #106776;
+  @include fonts('Oswald', 1rem, #ffffff)
+}
+.contact-card_style{
+  padding: 0% 2.5% 0% 2.5%;
+  background-color: #106776;
+  color: #ffffff;
+}
+.list-group-item_bg{
+  background-color: #106776;
+}
+.card-link_colour{
+  text-decoration: solid #ffffff;
+  @include fonts('Oswald', 1.4rem, #ffffff)
+}
+.card-link_colour:hover{
+ color: #8d8d8d;
+}

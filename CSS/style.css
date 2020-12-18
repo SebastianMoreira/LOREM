@@ -187,6 +187,30 @@ body {
   background-color: #106776;
   color: #ffffff; }
 
+/*Contacto*/
+#body-bg-contact_colour {
+  background-color: #106776;
+  font-family: "Oswald";
+  font-size: 1rem;
+  color: #ffffff; }
+
+.contact-card_style {
+  padding: 0% 2.5% 0% 2.5%;
+  background-color: #106776;
+  color: #ffffff; }
+
+.list-group-item_bg {
+  background-color: #106776; }
+
+.card-link_colour {
+  text-decoration: solid #ffffff;
+  font-family: "Oswald";
+  font-size: 1.4rem;
+  color: #ffffff; }
+
+.card-link_colour:hover {
+  color: #8d8d8d; }
+
 /*Otros*/
 .banner-p_style-size {
   font-family: "Oswald";
