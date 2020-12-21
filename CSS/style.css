@@ -140,6 +140,19 @@ body {
   padding: 1rem 0% 2rem 0%;
   text-align: center; }
 
+.text-h4_style {
+  text-decoration: double;
+  text-align: center;
+  color: #ffffff; }
+
+.banner-p_style-size {
+  font-size: 1rem;
+  color: #ffffff; }
+
+.text-abautUs_margin {
+  width: 92%;
+  margin: 1.5rem 4% 1rem 4%; }
+
 /*Formulario*/
 .form-label {
   font-family: "Oswald";
@@ -210,12 +223,6 @@ body {
 
 .card-link_colour:hover {
   color: #8d8d8d; }
-
-/*Otros*/
-.banner-p_style-size {
-  font-family: "Oswald";
-  font-size: 0.8rem;
-  color: #ffffff; }
 
 /*Banner Background*/
 #banner-bg {
